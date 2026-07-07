@@ -62,7 +62,7 @@ const navItems = [
 </div>
 
 <div className="border-[0.9px] border-green-950 rounded-lg">
-<h2 className="text-green-600 text-sm font-bold py-1 px-4">Launch App</h2>
+<h2 className="text-green-600 text-sm font-bold py-1 px-4">Sign UP</h2>
 </div>
 
 </div>
