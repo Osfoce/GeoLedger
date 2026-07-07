@@ -18,7 +18,7 @@ const navItems = [
     return (
 
      <div className="p-3">
-        <div className="flex justify-around items-center gap-4  text-white/50 border-[0.9px] rounded-2xl">
+        <div className="flex justify-around items-center gap-4  text-white/50">
 
 {/* LOG */}
            <div className="flex items-center gap-0.5 cursor-pointer">
@@ -62,7 +62,7 @@ const navItems = [
 </div>
 
 <div className="border-[0.9px] border-green-950 rounded-lg">
-<h2 className="text-green-600 py-1 px-4">Connet Wallet</h2>
+<h2 className="text-green-600 text-sm font-bold py-1 px-4">Launch App</h2>
 </div>
 
 </div>
