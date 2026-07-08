@@ -1,4 +1,5 @@
 
+import { FaShieldAlt, FaEye, FaBolt } from "react-icons/fa";
 
 export default function Hero() {
     return (
@@ -28,7 +29,19 @@ export default function Hero() {
     <p className="text-sm font-semibold">GeoLedger is a decentralized land registry platform built on Stellar. We make make land ownership secure, transparent, and verifiable for everyone.</p>
 </div>
 
-<div className="flex flex-row gap-3 items-center">
+<div className="flex flex-row gap-3 items-center mt-4">
+
+<div className="w-14 h-14 rounded-2xl border border-green-500/30 bg-green-500/5 flex items-center justify-center">
+  <FaShieldAlt className="text-green-400 text-2xl" />
+</div>
+
+<div className="w-14 h-14 rounded-2xl border border-green-500/30 bg-green-500/5 flex items-center justify-center">
+  <FaEye className="text-green-400 text-2xl" />
+</div>
+
+<div className="w-14 h-14 rounded-2xl border border-green-500/30 bg-green-500/5 flex items-center justify-center">
+  <FaBolt className="text-green-400 text-2xl" />
+</div>
 
 </div>
 
